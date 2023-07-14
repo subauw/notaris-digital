@@ -643,7 +643,7 @@ section {
 
 .about .notaris {
   background: url("../img/notaris.jpg") center center no-repeat;
-  background-size: cover;
+  background-size: auto;
   min-height: 200px;
 }
 
