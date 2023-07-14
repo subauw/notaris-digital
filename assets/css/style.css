@@ -329,9 +329,22 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+@media (min-width: 1024px) {
+  #hero1 {
+    height: 20vh;
+    background-repeat: no-repeat;
+  }
+
+  #hero1 h1 {
+    padding-left: 40px;
+    padding-top: 150px;
+  }
+}
+
 #hero1{
-  background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url("../img/progress.jpg") center;
-  background-size: contain;
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url("../img/progress.jpg") top center;
 }
 
 #hero1 h1 {
@@ -345,10 +358,11 @@ h6 {
 @media (max-width: 992px) {
   #hero1 {
     margin-bottom: 0;
-    height: 120vh;
+    height: 30vh;
   }
   
   #hero1 h1 {
+    padding-top: 5rem;
     font-size: 28px;
     line-height: 36px;
   }
@@ -356,7 +370,7 @@ h6 {
 
 @media (max-height: 600px) {
   #hero1 {
-    height: 110vh;
+    height: 50vh;
   }
 }
 
@@ -501,10 +515,6 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-/* .about{
-  padding-top: 280px;
-} */
-
 .about .icon-boxes h4 {
   font-size: 18px;
   color: #FF9505;
