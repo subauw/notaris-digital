@@ -891,27 +891,3 @@ section {
   font-size: 13px;
   color: #444444;
 }
-
-/*--------------------------------------------------------------
-# Sign In
---------------------------------------------------------------*/
-.sign-in{
-  background-color: #f48f00;
-}
-
-.sign-in .card {
-  background-color: #ffe3bd;
-  border-radius: 1rem;
-}
-
-/*--------------------------------------------------------------
-# Sign Up
---------------------------------------------------------------*/
-.sign-up {
-  background-color: #f48f00;
-}
-
-.sign-up .card {
-  background-color: #ffe3bd;
-  border-radius: 1rem;
-}
