@@ -782,22 +782,16 @@ section {
   color: #2f2f2f;
 }
 
-.contact .info .address {
-  margin-left: 200px;
-}
-
-.contact .info .email{
-  margin-left: 200px;
+.contact .info{
   margin-top: 40px;
 }
 
-.contact .info .whatsapp {
-  margin-left: 80px;
+.contact .info .email{
+  margin-top: 40px;
 }
 
 .contact .info .fax {
   margin-top : 40px;
-  margin-left: 80px;
 }
 
 .contact .info .email:hover i,
