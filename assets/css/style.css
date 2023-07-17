@@ -748,7 +748,8 @@ section {
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .whatsapp:hover i,
+.contact .info .fax:hover i {
   background: #FF9505;;
   color: #fff;
 }
@@ -888,6 +889,6 @@ section {
 
 #footer .credits {
   padding-top: 5px;
-  font-size: 12px;
+  font-size: 13px;
   color: #444444;
 }
